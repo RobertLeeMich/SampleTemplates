@@ -1,7 +1,9 @@
 html, body {
-    margin: 0.1rem;
+    margin: 0rem;
     padding: 0;
     height: 100%;
+    display:flex;
+    background-color: rgb(255, 140, 0, 0.2);
   }
 
 
@@ -78,7 +80,6 @@ nav ul li a {
   color: white;
   background-color: green;
   flex: 1;
-  justify-content: left;
   margin-top: 5.5rem;
   padding: 1rem;
   width: 25%;
@@ -89,7 +90,6 @@ nav ul li a {
     color: white;
     background-color: red;
     flex: 1;
-    justify-content: left;
     margin-top: 5.5rem;
     padding: 1rem;
     width: 50%;
@@ -100,9 +100,24 @@ nav ul li a {
     color: white;
     background-color: gray;
     flex: 1;
-    justify-content: left;
     margin-top: 5.5rem;
     padding: 1rem;
     width: 25%;
   }
+
+  #bottomnav{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    bottom:0;
+    width: 100%;
+    background-color: rgb(126, 221, 255, 0.7);
+  }
+
+  img {
+    width: 5%;
+    height: auto;
+  }
+
+
   
