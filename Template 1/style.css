@@ -4,6 +4,7 @@ html, body {
     height: 100%;
     display:flex;
     background-color: rgb(255, 140, 0, 0.2);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
 
 
@@ -73,6 +74,7 @@ nav ul li a {
   
   #parent{
     display:flex;
+    font-size: 1.5rem;
   }
 
   #leftsidebar {
@@ -118,6 +120,10 @@ nav ul li a {
     width: 5%;
     height: auto;
   }
+
+#name{
+  margin-left: 22rem;
+}
 
 
   
