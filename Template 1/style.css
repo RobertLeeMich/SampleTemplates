@@ -1,40 +1,30 @@
 html, body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
+    margin: 0.1rem;
     padding: 0;
+    height: 100%;
   }
-  
-  .container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  #navbar {
-    text-align: center;
+
+
+  nav {
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
-    z-index: 100;
+    width: 100%;
   }
   
-  #navbar ul {
+nav ul {
+    justify-content: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
   }
   
-  #navbar ul li {
-    display: inline;
+nav ul li {
     color: black;
   }
   
-  #navbar ul li a {
+nav ul li a {
     text-decoration: none;
   }
   
@@ -79,20 +69,40 @@ html, body {
     right: 1rem;
   }
   
-  #sidebar {
-    width: 25%;
-    flex-grow: 1;
-    flex-shrink: 0;
-    flex-basis: 25%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 3em;
-    margin-left: 0;
+  #parent{
+    display:flex;
   }
-  
-  #footer {
-    background-color: rgb(126, 126, 126);
-    display: flex;
+
+  #leftsidebar {
+  height: 100%;
+  color: white;
+  background-color: green;
+  flex: 1;
+  justify-content: left;
+  margin-top: 5.5rem;
+  padding: 1rem;
+  width: 25%;
+  }
+
+  #main{
+    height: 100%;
+    color: white;
+    background-color: red;
+    flex: 1;
+    justify-content: left;
+    margin-top: 5.5rem;
+    padding: 1rem;
+    width: 50%;
+  }
+
+  #rightsidebar{
+    height: 100%;
+    color: white;
+    background-color: gray;
+    flex: 1;
+    justify-content: left;
+    margin-top: 5.5rem;
+    padding: 1rem;
+    width: 25%;
   }
   
