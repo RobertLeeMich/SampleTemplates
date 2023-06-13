@@ -116,13 +116,34 @@ nav ul li a {
     background-color: rgb(126, 221, 255, 0.7);
   }
 
-  img {
-    width: 5%;
-    height: auto;
+  #footercontent{
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
   }
 
-#name{
-  margin-left: 22rem;
+#socials{
+    list-style: none;
+    flex: 1;
+}
+#socials li{
+    margin: 0 10px;
+}
+#socials a{
+    text-decoration: none;
+    color: #0800ff;
+    padding: 5px;
+    border-radius: 50%;
+}
+#socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+#socials a:hover i{
+    color: aqua;
 }
 
 
